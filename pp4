@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pp4.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heros">
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+            <div class="hero">
+                <div class="image"></div>
+            </div>
+        </div>
+       
+    <div class="logo">
+    <img src="설경구외계인.jpg">
+    </div>
+    </div>
+    
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.body {
+    background-image: url(설경구외계인.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.container .heros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 650px;
+    margin: auto;
+    padding: 90px;
+
+}
+
+.container .heros .hero {
+width: 80px;
+height: 85px;
+margin: 5px;
+background-color: black;
+transform: skew(-15deg);
+border: 3px solid white;
+border-radius: 10px;
+box-sizing: border-box;
+transition: transform 0.2s, 
+background-color 0.7s;
+}
+
+.container .heros .hero:hover {
+    background-color: orange;
+    transform: skew(-15deg) scale(1.3);
+} 
+
+
+.container .heros .hero:nth-child(1) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(2) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(3) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(4) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(5) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(6) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(7) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(8) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(9) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(10) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(11) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(12) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(13) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(14) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(15) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(18) .image{
+    background-image: url("설경구외계인.jpg");
+}.container .heros .hero:nth-child(19) .image{
+    background-image: url("설경구외계인.jpg");
+}.container .heros .hero:nth-child(20) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(21) .image{
+    background-image: url("설경구외계인.jpg");
+}.container .heros .hero:nth-child(17) .image{
+    background-image: url("설경구외계인.jpg");
+
+}
+.container .heros .hero:nth-child(16) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(22) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(23) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(24) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(25) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(26) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(27) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(28) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(29) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(30) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(31) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero:nth-child(32) .image{
+    background-image: url("설경구외계인.jpg");
+}
+.container .heros .hero .image {
+width: 100%;
+height: 100%;
+background-size: 115px;
+background-repeat: no-repeat;
+border-radius: 5px;
+}
+.container .logo {
+    margin: 0 auto;
+    width: 200px;
+
+}
+
+
+.container .logo img {
+    width: 200px;
+    height: 200px;
+    
+}
